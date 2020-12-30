@@ -1,0 +1,454 @@
+<html>
+  <head>
+    <title>ROOM</title>
+      <link rel="stylesheet" type="text/css" href="css/room.css">
+      
+  </head>
+
+  <body onload="startTime()">
+    <section class="header">
+    <div class="container">
+      <nav  class="nav">
+          
+        </div>  
+          <ul class="nav-list">
+            <li class="fvg">
+              <p><br><br>Sea Side South park<br>hotel sri lanka</p>
+            </li>
+          <li class="nav-item">
+            <a href="../home.html" class="nav-link"><span class="hvr-grow">HOME</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="../aboutus.html" class="nav-link"><span class="hvr-grow">About Us</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="../contact.html" class="nav-link"><span class="hvr-grow">Contact Us</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="../Room/room.html" class="nav-link"><span class="hvr-grow" style="color: #cca42f">Room</span></a>
+          </li> 
+          <li class="nav-item">
+            <a href="../RESERVATION/RESERVATION.html" class="nav-link"><span class="hvr-grow">Hotel reservation</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="../hmutiple/assi.html" class="nav-link"><span class="hvr-grow">Multiple Hotel</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="../ex/nb.html" class="nav-link"><span class="hvr-grow">Registration</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    </section> 
+<hr style="width:87%;border-top: 2px solid #616161">
+</br>
+<script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+          document.getElementById('radio'+ counter) .checked =true; 
+        counter++;
+        if(counter>5){
+          counter=1;
+        }
+        },5000);
+      </script>
+      <section id="poto">
+    <div class="slider">
+    <div class="slides">
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+      <input type="radio" name="radio-btn" id="radio5">
+      
+    
+        <div class="slide first">
+        <img  src="image/1.jpg" alt="">
+      </div>
+        <div class="slide">
+        <img  src="image/8.jpg" alt="">
+      </div>
+        <div class="slide">
+        <img  src="image/9.jpg" alt="">
+      </div>
+        <div class="slide">
+        <img  src="image/4.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img  src="image/5.jpg" alt="">
+      </div>
+      
+        
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+          <div class="auto-btn5"></div>
+
+          
+      </div>
+      </div>
+            <div class="navigation-manual">
+             <label for="radio1" class="manual-btn"></label>
+       <label for="radio2" class="manual-btn"></label>
+       <label for="radio3" class="manual-btn"></label>
+       <label for="radio4" class="manual-btn"></label>
+           <label for="radio5" class="manual-btn"></label>
+    
+    
+      
+    </div>
+  </div>
+  <div>
+    <br>
+   <br>
+   <center><p class="bn">SUPERIOR ROOM</p></center>
+    <hr width="400">
+    <center><h3><p style="color:#424242;"> Our Superior Rooms are a soothing blend of contemporary luxury & chic allure. Relax & melt into king-sized beds fitted with signature Sealy mattresses that are the very essence of comfort, enjoy a movie with loved ones on the 40-inch LCD TV & treat yourself with delicious meals from our 24-hour in-room dining menu.</p></h3></center>
+</div>
+
+<table class="uo" >
+    <tr >
+      <td colspan="3"><img class="si" src="image/11.jpg"></td>
+
+    </tr>
+    <tr>
+      <td><img class="sid" src="image/14.jpg"></td>
+      <td ><img class="sid" src="image/12.jpg"></td>
+      <td ><img class="sid" src="image/13.jpg"></td>
+    </tr>
+  </table>
+ 
+   <!-- calender -->
+      <div class="calender">
+        <h2 style="text-align:center; color:#999999;">Check For Availability</h2>
+       <!-- calender-->
+      <table border="0" style="margin-left:17%;">
+        <tr><hr class="new"></tr>
+      <tr style="color:white;font-size:23;">
+        <td class="days">Mon</td>
+        <td class="days">Tue</td>
+        <td class="days">Wed</td>
+        <td class="days">Thu</td>
+        <td class="days">Fri</td>
+        <td class="days">Sat</td>
+        <td class="days">Sun</td>
+      </tr>
+    </table>
+  </br>
+      <table  border="0" id="calandernum">
+      <tr>
+        <td style="color:#cca42f;">27</td>
+        <td style="color:#cca42f;">28</td>
+        <td style="color:#cca42f;">29</td>
+        <td style="color:#cca42f;">30</td>
+        <td style="color:#cca42f;">31</td>
+        <td id="dayhover">1</td>
+        <td style="color:red;" id="dayhover">2</td>
+      </tr>
+      <tr>
+        <td id="dayhover">3</td>
+        <td id="dayhover">4</td>
+        <td id="dayhover">5</td>
+        <td style="color:#174ebd;">6</td>
+        <td style="color:#174ebd;">7</td>
+        <td id="dayhover">8</td>
+        <td style="color:red;" id="dayhover">9</td>
+      </tr>
+      <tr>
+        <td style="color:#174ebd;">10</td>
+        <td id="dayhover">11</td>
+        <td id="dayhover">12</td>
+        <td style="color:#174ebd;">13</td>
+        <td id="dayhover">14</td>
+        <td id="dayhover">15</td>
+        <td style="color:red;" id="dayhover">16</td>
+      </tr>
+      <tr>
+        <td id="dayhover">17</td>
+        <td id="dayhover">18</td>
+        <td id="dayhover">19</td>
+        <td id="dayhover">20</td>
+        <td id="dayhover">21</td>
+        <td id="dayhover">22</td>
+        <td style="color:red;" id="dayhover">23</td>
+      </tr>
+      <tr>
+        <td id="dayhover">24</td>
+        <td id="dayhover">25</td>
+        <td id="dayhover">26</td>
+        <td id="dayhover">27</td>
+        <td style="color:#174ebd;">28</td>
+        <td id="dayhover">29</td>
+        <td style="color:red;" id="dayhover">30</td>
+         </tr>
+      <tr>
+        <td id="dayhover">31</td>
+        <td style="color:#cca42f;">1</td>
+        <td style="color:#cca42f;">2</td>
+        <td style="color:#cca42f;">3</td>
+        <td style="color:#cca42f;">4</td>
+        <td style="color:#cca42f;">5</td>
+        <td  style="color:#174ebd;">6</td>
+      </tr>
+    </table></br><tr></tr>
+  </div>
+  <table>
+    <table border="1" class="le">
+      <tr>
+        <td>
+  <div class="info">
+    <font=Microsoft Sans Serif>
+    <div class="hk">
+        <h2 style="font-family: Courier New; font-size: 30px; color: #363636;"><b>Room Details</b></h2>
+        
+        <p style="color:#6b6b6b;">Superior King Room city-or courtyard view Rooms offer space and comfort with<br> thoughtful contemporary design and local Sri Lankan touches. All rooms offer<br> exceptional views over the Lake and the city beyond.</p>
+        <h2>Amenities</h2>
+        <ul style="color:#6b6b6b;">
+          <li>Alarm clock</li>
+          <li>Air conditioning</li>
+          <li>Bathrobes and Slippers</li>
+          <li>Laundry Service</li>
+          <li>Telephone with external line</li>
+          <li>Mini Bar</li>
+          <li>Daily Newspaper</li>
+          <li>Desk</li>
+          <li>Satalite TV</li>
+          <li>Safe box</li>
+          <li>Pool towels</li>
+          <li>Hair dryer</li>
+          <li>Internet access(WiFi)</li>
+        </ul>
+      </td>
+      </div>
+      <td width="450">
+        <div class="yut">
+          <img width="400" height="500" src="image/17.jpeg">
+        </div>
+      </td>
+    </tr>
+  </table>
+    </div>
+  </font>
+</div>
+  <div class="bac">
+    <a href="../Accommadation/Accommadation.html"><button class="btn-back" > &larr; GO BACK</button></a>
+  </div></table>
+
+  </td>
+  </tr>
+</table>
+<br>
+  <table class="tablea" border="1">
+  <tr>
+    <td>
+      <ul type="none">
+        <li class="pad"><center>Size (SQ.FT.)<br><h2>252.10</h2></center></u>
+          <hr class="ad">
+        </li><li class="pad" ><center>Check In<br><h2>02:00pm</h2></center></li>
+         <hr class="ad">
+        <li class="pad"><center>Check Out<br><h2>12:00pm</h2></center></li>
+      </ul>
+    </td>
+    <td>
+      <ul type="none">
+        <li class="pad"><center>Bed Types<br>King &amp; twin beds</center> </li>
+         <hr class="ad">
+        <li  class="pad"><center>Extra Bed<br>Extra bed &amp; crib available upon request</center></li>
+         <hr class="ad">
+        <li class="pad"><center>Location<br>2nd to 4th floors</center></li>
+         <hr class="ad">
+        <li class="pad"><center>View</br>Looks out over Galle Face Green or the Colombo Harbour</center></li></ul>
+    </td>
+    <td>
+      <ul type="none">
+        <li class="pad"><center>Bathrooms</br>White marble bathrooms with a shower cubicle</center> </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+  <div class="booknow">
+  <table  border="0" style="margin-left:16%;">
+  <tr>
+       <!-- inserting date-->
+        <h2 style="color: #204051;">Current Date</h2>
+        <td></td><td></td>  <td></td>  
+        <td id="timetabletd" style="padding-left:0;">
+          <p id="demo1"></p>
+        </td>
+        <td id="timetabletd">/</td>
+        <td id="timetabletd">
+          <p id="demo2"></p>
+        </td>
+         <td id="timetabletd">/</td>
+        <td id="timetabletd">
+          <p id="demo3"></p>
+        </td>
+ 
+   </tr>
+   </table>
+   <div class="we">
+    <table >
+      <tr>
+        <div class="ww">
+      <td >
+        <img class="qq" src="image/15.jpg">
+      </td>
+    </div>
+<td width="500" height="400">
+<div class="ll">
+       <br>
+       <div class="xg33"> <p ><h2 style="color: #610B0B"> Check availability and select date</h2></p></div>
+<form action="roomqry.php" method="POST" name="form1">
+      
+</br>
+  <table style="margin-left:3.5%;" border="0">
+    <tr>
+      <td style="color:rgba(32, 64, 81);text-align:left;" id="booktxt">
+        <label for="start">Check-In:</label>
+      <td style="width:69.5%;padding-left:5%;"><input type="date" id="bookinput"  name="bdate"   min="2020-01-01" max="2023-12-31"></td>
+      </td>
+    </tr>
+    <tr> 
+      <td style="color:rgba(32, 64, 81);text-align:left;" class="txt">Enter your name</td>
+      <td style="width:69.5%;padding-left:5%;"><input type="text" name="name" id="bookinput"></td>
+    </tr>
+    <tr>
+      <td style="color:rgba(32, 64, 81); text-align:left;" class="txt">Email</td>
+      <td style="width:69.5%;padding-left:5%;"><input type="text" name="email" id="bookinput"></td>
+    </tr>
+    <tr>
+      <td style="color:rgba(32, 64, 81);text-align:left;" class="txt">Phone:</td>
+      <td style="width:69.5%;padding-left:5%;"><input type="numbers" name="phone" id="bookinput"></td>
+    </tr>
+    <br>
+  </table>
+</br>
+      <input type="hidden" name="room" value="Superior King Room city-or courtyard view">
+      <div class="hg">
+      <input  type="submit" class="btn-white pos" name="submit" value="book now">
+       <pre>
+   <a href="../RESERVATION/RESERVATION.html"><button class="btn-back" > &larr; GO BACK</button></a>
+      </pre>
+      </div>
+    </form>
+        
+      </div>
+  
+    </div>
+  </div>
+</td>
+   </tr>  
+  </table>
+</div>
+
+<div class="dcf">
+  <table class="le" border="1">
+    <tr>
+      <td width="600" >
+        <div class="hk">
+<p><p ><h3 style="color:#D7DF01";><center>Early Arrivals & Late Departures</center></h3></p><br><p style="color:#424242"; >Arrivals before 10:00am need to be booked & paid for from the previous night. Early departure, during peak occupancy is subject to 100% charge on the remaining room. Late departures incur 50% charge up to 06:00pm & a full day’s charge thereafter.</p></p></div>
+<br>
+<hr width="310">
+</h2>
+<div class="hk">
+<p><p ><h3 style="color:#D7DF01";><center>Guaranteed Reservations & Cancellation Policy</center></h3></p><br><p style="color:#424242";>Guaranteed reservations will be charged for the full reservation by credit card provided. Cancellations made 24 hours prior to arrival are free of charge, any cancellations made after are subject to one night’s charge.</p></p></div>
+
+     <br>
+     <hr width="310">
+</h2>
+<div class="hk">
+<p><p ><h3 style="color:#D7DF01";><center>Family Plan</center></h3></p><br><p style="color:#424242";>Rooms accommodate maximum three adults per room or two adults & two children (under 12 years). Children under 12 will not be charged for sharing the same room. Children aged six to 12 will be charged 50% of meal charges & children below six are offered free meals.</p></p></div>
+      </td>
+      <td width="500" height="800">
+        <div  class="kh">
+        <img width="470" height="700" src="image/20.jpg" >
+      </div>
+      </td>
+    </tr>
+  </table>
+</div>
+</div>
+
+ </div>
+ <script src="main.js"></script>
+<hr class="mn">
+<br>
+ <center><p class="bn">MORE ROOMS OF OUR HOTEL</p></center>
+ <div class="xc21">
+ <table width="1200">
+   <tr>
+     <td width="350">
+      <div class="mx">
+       <img width="350" height="200" src="image/21.jpeg">
+       <br>
+       <br>
+       <center><h1><pre class="n21">          DELUXE ROOM</pre></h1> </center>
+       <br>
+       <br>
+       <pre class="n25">         <button class="mn21" type="submit" onclick="window.location.href='DELUXE ROOM.html';">FIND OUT MORE</button></pre>
+     </td>
+     <td width="350">
+      <div class="mx">
+       <img width="350" height="200" src="image/27.jpg">
+       <br>
+       <br>
+       <center><h1><pre class="n21">          EXECUTIVE ROOM</pre></h1> </center>
+       <br>
+       <br>
+       <pre class="n25">           <button class="mn21" type="submit" onclick="window.location.href='EXECUTIVE ROOM.html';">FIND OUT MORE</button></pre>
+     </td>
+
+      <td width="350">
+      <div class="mx">
+       <img width="350" height="200" src="image/25.jpg">
+       <br>
+       <br>
+       <center><h1><pre class="n21">          PREMIUM ROOM</pre></h1> </center>
+       <br>
+       <br>
+       <pre class="n25">           <button class="mn21" type="submit" onclick="window.location.href='PREMIUM ROOM.html';">FIND OUT MORE</button></pre>
+     </td>
+   </tr>
+ </table>
+</div>
+
+<div class="kl44">
+     <div class="container">
+      <div class="footer-content-brand">
+<Table border="1" class="cc22" >
+ <tr>
+  <td class="lk12">
+                                 
+   <div class="vs66 ">Adress :</div> <pre>             523c Colombo - Galle Main Rd,
+             Galle,
+             sri lanka.</pre>
+ <div class="vs66 ">Telphone :</div><pre>             0912 030 500</pre>
+</td>
+   <td >
+     
+
+     <p class="sd21">where our sprits meet your style</p><br>
+     <p class="sd21">FOLLOW US</p><br>
+  
+ <div class="bg43">
+  
+    <a href="https://www.facebook.com/"><img width="50" src="image/fb.png"></a>
+   
+   
+    <a  href="https://www.ti.com/"><img width="50" src="image/tw.png"></a>
+  
+   
+    <a  href="https://www.facebook.com/"><img width="50" src="image/gp.png"></a>
+  </div>
+</td>
+ </tr>
+</Table>
+</div>
+</div>
+<div class="bottom-line">
+        <p class="xx32">&copy;SEA SIDE SOUTH PARK | Designed by pasindu denuka</p>
+    </div>
+</body>
+</html>
